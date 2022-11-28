@@ -1,0 +1,322 @@
+<!DOCTYPE>
+<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Matias Mobili</title>
+</head>
+
+<body>
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Matias Mobili</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi...</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Portfolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://facebook.com/mmobili"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h1>Mi nombre es Matias Mobili</h1>
+                <h2>Desarrollador de Software</h2>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Matias Mobili</span> </h2>
+            <p>Me especializo en:</p>
+            <p>* Analizar y examinar las necesidades de los usuarios; diseñar y desarrollar software, de acuerdo con esas necesidades.</p>
+            <p>* Sugerir actualizaciones de software para los sistemas y programas de los clientes.</p>
+            <p>* Diseñar piezas de un sistema o una aplicación y dar ideas sobre cómo funcionarían dichas piezas.</p>
+            <p>* Crear varios modelos y diagramas para mostrar a los programadores los códigos de software de una aplicación.</p>
+            <p>* Asegurarme de que un programa continúe funcionando sin problemas a través de pruebas y mantenimiento.</p>
+            <p>* Mantener un documento de cada aspecto de una aplicación como referencia para ser utilizado en el futuro para actualizaciones y mantenimiento.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <p>Realizo diseños web/páginas web institucionales, comercios online (E-commerce) y de catálogos de productos.
+
+                    Cuento con templates realmente increíbles. Realizo páginas web para toda clase de rubro. Analizo sus necesidades y evaluo el mejor camino para mostrar su negocio al mundo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Servicios de Desarrollo de Python</h4>
+                <hr>
+                <p>Desarrollo aplicaciones, desde la concepción de tu idea, prototipado, desarrollo y puesta en marcha.
+                    He desarrollado soluciones móviles ingeniosas desde el inicio hasta el lanzamiento. Te menciono algunas: Apps de deliveries, fidelidad, billeteras de pagos, para transporte y más.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <p>A medida que el número, los usuarios, el tamaño y la demanda de las bases de datos empresariales aumentan, también aumenta la necesidad de recursos de administración de bases de datos y de TI. Aproveche los servicios de administración de bases de datos, el socio de soporte de software en quien confían las empresas más exitosas para disfrutar de un servicio experto y ultrarrápido, las 24 horas, los 7 días de la semana, los 365 días del año.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Xamarin</h4>
+                <hr>
+                <p>Trabajo para ayudar a las empresas a crecer en su transformación digital. Desde la modelación de los procesos, aplicando design thinking en las definiciones y utilizando metodologías ágiles en el trabajo en equipo del desarrollo de los proyectos.
+
+                    Soy el aliado estratégico para encontrar las soluciones tecnológicas apropiadas.
+                    
+                    Entiendo que, para poder desarrollar buenas soluciones, debemos desarrollar buenas relaciones.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Programacion CNC</h4>
+                <hr>
+                <p>Le ofrezco una amplia gama de servicios de diseño y programación CAD CAM CNC: la ingeniería de proyectos, el desarrollo y la gestión, la elección más adecuada y el servicio postventa para posibles modificaciones. En definitiva el desarrollo completo desde que surge la necesidad hasta que se produce en su empresa.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Servicio de Diseño 2D, 3D y ensamblaje</h4>
+                <hr>
+                <p>Servicio integral de diseño e innovación. Desarrollamos productos y servicios que estimulan, inspiran y conectan con el consumidor ayudando a las organizaciones a crecer y adquirir ventajas competitivas en el mercado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+        <div class="contenedor-skills" id="skills">
+         <h3>Habilidades </h3>
+         <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTML5 & CSS</p>
+                <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="HTML"></div>
+            </div>
+        </div>
+ 
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PYTHON</p>
+                <span class="Porcentaje">92%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="Py"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="Bd"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>XAMARIN</p>
+                <span class="Porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="Xa"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PROGRAMACION CNC</p>
+                <span class="Porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="CNC"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>DISEÑO Y MODELADO MECANICO 3D - SOLIDWORKS -</p>
+                <span class="Porcentaje">96%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="3D"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Servicio de Diseño</p>
+                <span class="Porcentaje">97%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="Di"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Reparacion de Pc, Internet y Redes</p>
+                <span class="Porcentaje">98%</span>
+            </div>
+            <div class="barra">
+                <div class="" id="Pc"></div>
+            </div>
+        </div>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect1.jpg" alt="">
+                <div class="info">
+                    <h4>Web Design.</h4>
+                    <p>Paginas web institucionales / catalogos de productos online.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect2.jpg" alt="">
+                <div class="info">
+                    <h4>Códigos HTML + CSS.</h4>
+                    <p>Mostramos su negocio al mundo.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect3.jpg" alt="">
+                <div class="info">
+                    <h4>Código en Python.</h4>
+                    <p>Prototipado, desarrollo y puesta en marcha.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect4.jpg" alt="">
+                <div class="info">
+                    <h4>Base de datos.</h4>
+                    <p>Configuramos y administramos bases de datos. Las 24 hs., 7 dias a la semana, los 365 dias del año.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect5.jpg" alt="">
+                <div class="info">
+                    <h4>Código en Xamarin.</h4>
+                    <p>Modelación de los procesos aplicando la tecnología "Design Thinking".</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect6.jpg" alt="">
+                <div class="info">
+                    <h4>Programación CNC.</h4>
+                    <p>Programación CAD CAM CNC. Desde que surge una necesidad hasta que se produce en su empresa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect7.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño y modelado en SolidWoks.</h4>
+                    <p>Desarrollamos piezas metalmecanicas en 2D, 3D y ensamblajes.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect8.jpg" alt="">
+                <div class="info">
+                    <h4>Servicio de diseño.</h4>
+                    <p>Desde la ingenieria de proyecto pasando por el desarrollo y la gestión.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyect9.jpg" alt="">
+                <div class="info">
+                    <h4>Repacación de Pc, internet y redes.</h4>
+                    <p>Diagnostico, reparación, instalación y configuración.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Todos los derechos reservados - @mamobili - 2022 - </p>
+        <div class="redes">
+            <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://facebook.com/mmobili"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
